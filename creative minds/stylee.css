@@ -1,0 +1,259 @@
+body{
+	background-color:black;
+	background-repeat: none;
+}
+
+.navbar{
+	background-color: black !important;
+	opacity:0.7 !important;
+	color:white !important ;
+	display:fixed !important;
+	display:flex !important;
+	justify-content: center !important;
+
+}
+
+.nav-link{
+	color:white !important;
+}
+.navbar-brand{
+	color:white !important;
+}
+.navbar-brand>img{
+	width:100px;
+	height:50px;
+}
+.row1{
+	width:100%;
+	height:33%;
+	overflow:hidden;
+	
+}
+.col1{
+    width:100px;
+    height:200px;
+    margin:5px;
+    padding:0px;
+	border:2px solid black
+	;
+	border-radius:25px;
+	overflow:hidden;
+}
+.col1>img{
+	object-fit:cover;
+	width:100%;
+			height:100%;
+			opacity:0.5;
+}
+@keyframes first{
+			from {opacity:0;}
+			to {opacity: 0.5;}
+		}
+.img1{animation-name:first;
+			animation-duration:5s;}
+		.img2{animation-name:first;
+			animation-duration:7s;}
+		.img3{animation-name:first;
+			animation-duration:3s;}
+		.img4{animation-name:first;
+			animation-duration:1s;}
+.container1{
+	position: absolute;
+	top:330px;
+	left:3%;
+		}
+.col_1>h1{
+	font-size:80px;
+	color:white;
+	font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.col_1>p{
+	font-size: 40px;
+	color:white;
+}
+.col_1>button{
+	padding:5px 10px 5px 10px ;
+	margin-left:110px;
+	border:2px solid yellow;
+	border-radius:25px;
+	background-color: yellow;
+	
+
+}	
+.whyus{
+	display:flex;
+	justify-content:center;
+}
+.whyus>h1{font-family: "Anton", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size:60px !important;
+    margin-bottom:30px;
+    color:white;
+    margin-top:5rem;
+
+}
+}
+.button1>button{
+	border:2px solid yellow;
+	border-radius:25px;
+	background-color:yellow;
+	padding:3px 5px 3px 5px;
+}
+.container3,.row3{
+	width:100%;
+	height:90vh;
+	margin-top:8rem;
+
+}
+.col3{
+	width:20%;
+	height:90vh;
+	border:2px solid black;
+	border-radius:45px;
+	overflow:hidden;
+	margin-right:15px;
+	padding:0px;
+	position:relative;
+}
+.col3>img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.col_3, .col23{
+	width:20%;
+	height:75vh;
+	overflow:hidden;
+	border:2px solid black;
+	padding:0px;
+	border-radius:25px;
+	position:relative;
+
+}
+.col_3>img, .col23>img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+
+
+}
+.col__3>h1,.col33>h1{
+	color:white;
+	font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:70px;
+
+}
+.col__3,.col33{
+	display:flex;
+	justify-content:center;
+	margin-top:1rem;
+}
+.onehover{
+	position:absolute;
+	top:0;
+	opacity:0;
+}
+.card-text,.card-body{
+	background-color: black !important;
+	border: 2px black solid  !important;
+}
+.card{
+	margin:5px 20px 5px 20px !important;
+	border-radius:25px !important;
+	overflow:hidden !important;
+}
+.page4{
+	display:flex;
+}
+.card-body>h5{
+	color:white;
+	font-family: "Anton", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size:30px !important;
+
+}
+.pagee4 ,.page55{
+	display:flex;
+	justify-content:center;
+	margin-top:80px;
+	color:white;
+	font-family: "Anton", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+    font-size:60px !important;
+    margin-bottom:30px;
+
+}
+
+.page5{
+	margin-top:60px;
+}
+
+.page55{
+
+}
+
+.page6{
+    margin: 0 .5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+}
+.page6>img{
+	width:500px;
+	height:70%;
+	object-fit:cover;
+}
+
+.img-wrapper{
+	padding:0;
+	width:350px;
+	height:300px;
+	overflow:hidden;
+}
+.img-wrapper>img{
+	object-fit:cover;
+	width:100%;
+	height:100%;
+}
+.page8{
+	display:flex;
+
+}
+.tpp{
+	display:flex;
+	justify-content:center;
+	margin-bottom:5rem;
+}
+.tpp-card{
+	background: linear-gradient(to right, blue, purple);
+
+}
+.tpp-body{
+	background:black;
+	padding:2rem;
+
+}
+.tpp-body>p{
+	color:white;
+}
+.card-header{
+	background: linear-gradient(to right, blue, purple);
+
+}
+.CARD{
+	border:2px solid grey;
+	margin-top:8rem;
+}
+.card-text{
+	color:white !important;
+}
+.featured{
+	margin-top:20px;
+}
